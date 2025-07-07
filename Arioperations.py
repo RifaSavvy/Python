@@ -1,0 +1,11 @@
+a=int(input("Enter the First Number: "))
+b=int(input("Enter the Second Number: "))
+c=a/b
+d= float(c)
+print("2 numbers Added: ", a+b)
+print("2 numbers when Subtracted: ", a-b)
+print("2 numbers when Multiplied: ", a*b)
+print("2 numbers when Divided: ", d)
+print("2 numbers when Floor Divided: ",a//b)
+print("Modulo of the 2 numbers are: ",a%b)
+print("Expontiation of the 2 numbers: ", pow(a,b))
