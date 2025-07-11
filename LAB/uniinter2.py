@@ -1,0 +1,6 @@
+a=eval(input("Enter the 1st list"))
+b=eval(input("Enter the 2nd list"))
+union= set(a)| set(b)
+inter= set(a)&set(b)
+print("Union of the lists: ",union)
+print("Intersection of the lists: ",inter)
